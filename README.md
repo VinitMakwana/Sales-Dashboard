@@ -40,8 +40,8 @@ The visualizations and analyses span several dimensions, including order frequen
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/RobinMillford/Sales-Metrics-Dashboard-Streamlit.git
-cd Sales-Metrics-Dashboard-Streamlit
+git clone myurl
+cd Sales-Dashboard
 ```
 
 ### Install Dependencies
@@ -60,10 +60,6 @@ pip install -r requirements.txt
 streamlit run sales_dashboard.py
 ```
 
-### Deployment
-
-The dashboard is deployed on **Streamlit Community Cloud**. Access it here: [Customer Sales Dashboard](https://sales-metrics-dashboard-app.streamlit.app/)
-
 ## Data
 
 Ensure that the dataset used for analysis is correctly formatted and located in the appropriate directory. For this project, a preprocessed dataset containing accounts, orders, sales representatives, and regions is used to power the dashboard's insights.
@@ -79,12 +75,4 @@ Ensure that the dataset used for analysis is correctly formatted and located in 
 - **Customer Behavior:** Identification of spending patterns and order frequency across different segments.
 - **Seasonality:** Trends highlighting seasonal peaks and troughs for better demand planning.
 - **Operational Insights:** Patterns in order size and variability to improve consistency and efficiency.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the AGPL-3.0 license License - see the LICENSE file for details.
 
